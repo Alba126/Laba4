@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 n = int(input('Мне>'));
 def age_to_str(n):
     return "лет" \
