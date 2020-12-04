@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-<<<<<<< HEAD
 import sys
 
 
@@ -17,13 +16,3 @@ if __name__ == '__main__':
     else:
         print("Ошибка", file=sys.stderr)
         exit(1)
-=======
-n = int(input('Мне>'));
-def age_to_str(n):
-    return "лет" \
-        if n // 10 % 10 == 1 or n % 10 in {0, 5, 6, 7, 8, 9} \
-        else 'год' \
-        if n % 10 ==1 \
-        else 'года'
-    print(f' {n} {age_to_str(n)} ')
->>>>>>> 2207c82e66d12eb846e71c4a955d90212a492835
